@@ -1,4 +1,4 @@
-# Online Resume
+# My Online Resume
 The intention of this website is to provide prospective employers and potential collaborators with information about me, my work experience and how to contact me. The site also provides a showcase for my portfolio. 
 
 ---
@@ -23,7 +23,7 @@ In order to be of use to both me and it's users, the site will contain the follo
 To make it visually interesting there will be a clickable timeline on the work history page.  
 
 ### Structure
-Being a simplistic site in terms of content, the lay-out will be matching that simplicity. There will be a seperate menu item for each feature. At the bottom there will be an area with links to LinkedIn and Github and an option for downloading my CV.  
+Being a simplistic site in terms of content, the lay-out will be matching that simplicity. There will be a seperate menu item for each feature. At the bottom there will be an area with links to LinkedIn and Github and an option for downloading my CV. At the home page there will be a testimonials section.
 
 ### Skeleton
 - [Home](https://github.com/ElkeJohannes/online-resume/blob/master/assets/wireframes/Home.png)
@@ -44,7 +44,7 @@ All colors, fonts and images are chosen to be somewhat in line with things I am 
 ## Features
 
 ### Existing features
-- 
+- On the Work History page you can click on the dates in the timeline so jump to the appropriate section in the text. On Mobile this function sits behind a circular button on the bottom right. 
 
 ### Features Left to Implement
 - 

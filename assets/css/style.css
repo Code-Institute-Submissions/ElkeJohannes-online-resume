@@ -1,1 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Song+Myung&family=Yeon+Sung&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------------------- Navigation */
+
+.navbar{
+    padding: 0 1rem;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul{
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    padding-top: 0px;
+}
+
+/* ---------------------------------- /Navigation */
