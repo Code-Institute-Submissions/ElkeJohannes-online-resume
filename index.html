@@ -13,79 +13,87 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm">
-        <a class="navbar-brand" href="index.html">Elke Harmanny</a>
-        <ul class="navbar ml-auto">
-            <li class="nav-item active">
-                <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="work-history.html" class="nav-link">Work History</a>
-            </li>
-            <li class="nav-item">
-                <a href="about.html" class="nav-link">About me</a>
-            </li>
-            <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-            </li>
-        </ul>
-    </nav>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Elke Harmanny</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <article>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <header>
-                        <section class="home-welcome">
-                            <h1>Welcome to my website!</h1>
-                            <p>
-                                I'm a Full Stack Web Developer in training, looking for new opportunities to grow and
-                                expand my skills. Preferably while paying the bills ;)
-                            </p>
-                            <p>
-                                Find out more <a href="about.html">about me</a> and <a href="work-history.html">what I
-                                    can do</a>.
-                            </p>
-                        </section>
-                    </header>
-                </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar navbar-nav">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="work-history.html" class="nav-link">Work History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <hr>
-            <section>
+        </nav>
+
+        <article>
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-4">
-                        <p>Elke is a great guy!</p>
-                        <p>- John Doe</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <p>Loved working with Elke!</p>
-                        <p>- Jack Doe</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <p>Elke's brilliance shines like a bright light!</p>
-                        <p>- Jane Doe</p>
+                    <div class="col">
+                        <header>
+                            <section class="home-welcome">
+                                <h1>Welcome to my website!</h1>
+                                <p>
+                                    I'm a Full Stack Web Developer in training, looking for new opportunities to grow
+                                    and
+                                    expand my skills. Preferably while paying the bills ;)
+                                </p>
+                                <p>
+                                    Find out more <a href="about.html">about me</a> and <a href="work-history.html">what
+                                        I
+                                        can do</a>.
+                                </p>
+                            </section>
+                        </header>
                     </div>
                 </div>
-            </section>
-            <hr>
-        </div>
-    </article>
+                <hr>
+                <section>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p>Elke is a great guy!</p>
+                            <p>- John Doe</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p>Loved working with Elke!</p>
+                            <p>- Jack Doe</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p>Elke shines bright like a diamond!</p>
+                            <p>- Jane Doe</p>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+            </div>
+        </article>
 
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6">
-                    <a href="#">Download a pdf version of my C.V. here!</a>
-                </div>
-                <div class="col-sm-6">
-                    <a href="#">LinkedIn</a>
-                    |
-                    <a href="#">GitHub</a>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="#">Download a pdf version of my C.V.</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="#">LinkedIn</a>
+                        |
+                        <a href="#">GitHub</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-
+        </footer>
 
     <!-- Bootstrap Javascript bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

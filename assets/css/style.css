@@ -1,48 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Song+Myung&family=Yeon+Sung&display=swap');
-
-body{
+body {
     margin: 0;
     padding: 0;
-
 }
 
 /* ---------------------------------- Fonts and colors */
 
-body{
+body {
     font-family: "Song Myung", sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6,.navbar{
+h1, h2, h3, h4, h5, h6, .navbar {
     font-family: "Yeon Sung", sans-serif;
 }
 
-
 /* ---------------------------------- /Fonts and colors */
+
 /* ---------------------------------- Navigation */
 
-nav {
-    border-bottom: 1px solid black;
+.navbar {
+    padding: 0;
 }
 
 nav ul li {
     list-style-type: none;
 }
 
-nav ul{
-    margin-bottom: 0;
-    
-}
-
-.navbar{
-    padding: 0 1rem;
+.navbar-brand {
+    padding-left: 10px;
 }
 
 /* ---------------------------------- /Navigation */
+
 /* ---------------------------------- /Home page content */
 
-.home-welcome{
+.home-welcome {
     margin-top: 1.5rem;
     text-align: center;
 }
 
 /* ---------------------------------- /Home page content */
+
+/* ---------------------------------- Media Queries */
+
+@media(min-width: 567px) {
+    .navbar-brand {
+        padding-left: 15%;
+    }
+    nav .navbar {
+        padding-right: 17%;
+    }
+}
+
+@media(min-width: 992px) {
+    .navbar-brand {
+        padding-left: 22%;
+    }
+    nav .navbar {
+        padding-right: 30%;
+    }
+}
+
+/* ---------------------------------- /Media Queries */
