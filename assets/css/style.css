@@ -5,6 +5,14 @@ body {
 }
 
 /* ---------------------------------- Fonts and colors */
+/* 
+Dark Purple: 8510a3
+Light purple: c00cf0
+Green: 01f00f
+Dark orange: a32b10
+Light orange: f0350c
+*/
+
 
 body {
     font-family: "Song Myung", sans-serif;
@@ -14,9 +22,29 @@ h1, h2, h3, h4, h5, h6, .navbar {
     font-family: "Yeon Sung", sans-serif;
 }
 
+.hr{
+    border-color: #8510a3;
+}
+
+footer div.row {
+    background-color: rgba(0,0,0, 0);
+}
+
+footer a {
+    color: #8510a3;
+}
+
+footer a:hover{
+    color: #c00cf0;
+}
+
 /* ---------------------------------- /Fonts and colors */
 
 /* ---------------------------------- Navigation */
+
+footer div.row {
+    padding-bottom: 10px;    
+}
 
 .navbar {
     padding: 0;
@@ -30,9 +58,17 @@ nav ul li {
     padding-left: 10px;
 }
 
+.footer-right {
+    text-align: end;
+}
+
 /* ---------------------------------- /Navigation */
 
 /* ---------------------------------- /Home page content */
+
+article {
+    padding: 35px 0;
+}
 
 .home-welcome {
     margin-top: 1.5rem;
@@ -41,24 +77,63 @@ nav ul li {
 
 /* ---------------------------------- /Home page content */
 
+/* ---------------------------------- /General helpers */
+
+.hr{
+    margin: 0 auto;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+.hr-short{
+    max-width: 30%;
+}
+
+.hr-wide{
+    max-width: 90%;
+}
+
+/* ---------------------------------- /General helpers */
+
 /* ---------------------------------- Media Queries */
 
 @media(min-width: 567px) {
-    .navbar-brand {
+
+    article {
+        padding: 35px 5%;
+    }
+
+    .hr{
+        margin: 10px auto;
+    }
+
+    .hr-wide{
+        max-width: 70%;
+    }
+
+    .home-welcome{
+        margin: 50px 25px 25px 25px;
+    }
+
+    .navbar-brand, .footer-left {
         padding-left: 15%;
     }
-    nav .navbar {
+
+    nav .navbar, .footer-right {
         padding-right: 17%;
     }
+
 }
 
 @media(min-width: 992px) {
     .navbar-brand {
         padding-left: 22%;
     }
+
     nav .navbar {
         padding-right: 30%;
     }
+
 }
 
 /* ---------------------------------- /Media Queries */
