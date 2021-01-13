@@ -11,6 +11,7 @@ Light purple: c00cf0
 Green: 01f00f
 Dark orange: a32b10
 Light orange: f0350c
+Dark grey: #212529
 */
 
 
@@ -23,19 +24,24 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .hr{
-    border-color: #8510a3;
+    border-color: #212529;
 }
 
 footer div.row {
-    background-color: rgba(0,0,0, 0);
+    background-color: #fff;
 }
 
 footer a {
-    color: #8510a3;
+    color: #212529;
 }
 
 footer a:hover{
     color: #c00cf0;
+}
+
+.blockquote p{
+    font-size: 1rem;
+    font-style: italic ;
 }
 
 /* ---------------------------------- /Fonts and colors */
@@ -73,6 +79,13 @@ article {
 .home-welcome {
     margin-top: 1.5rem;
     text-align: center;
+
+}
+
+.testimonials{
+    margin-top: 40px;
+    text-align: center;
+    
 }
 
 /* ---------------------------------- /Home page content */
@@ -112,7 +125,15 @@ article {
     }
 
     .home-welcome{
-        margin: 50px 25px 25px 25px;
+        max-width: 90%;
+    }
+
+    footer div.row {
+        background-color: rgba(0,0,0, 0);
+    }
+
+    .home-welcome{
+        margin-top: 50px;
     }
 
     .navbar-brand, .footer-left {
@@ -132,6 +153,10 @@ article {
 
     nav .navbar {
         padding-right: 30%;
+    }
+
+    .home-welcome{
+        max-width: 80%;
     }
 
 }

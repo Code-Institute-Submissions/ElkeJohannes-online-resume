@@ -72,7 +72,10 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
 - 
 
 ### Media
-- 
+* Testimonial images taken from [Unsplash](www.unsplash.com)
+    * Man1 from [shipnorth](https://unsplash.com/@shipnorth)
+    * Man2 from [rodreis](https://unsplash.com/@rodreis)
+    * Woman1 from [matfelipe](https://unsplash.com/@matfelipe)
 
 ### Acknowledgements
 - Tips and links provided by my mentor: Nishant Kumar (used links provided below)
