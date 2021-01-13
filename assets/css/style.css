@@ -80,6 +80,34 @@ nav ul li {
     text-align: end;
 }
 
+/* ---------------------------------- /Navigation */
+
+/* ---------------------------------- /Home page content */
+
+article {
+    padding: 35px 0;
+}
+
+.home-welcome {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.testimonials {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* ---------------------------------- /Home page content */
+
+/* ---------------------------------- /Work History page content */
+
+.work-history-content {
+    margin-top: 20px;
+    height: 570px;
+    overflow-y: scroll;
+}
+
 .job-toggler {
     width: 40px;
     height: 40px;
@@ -109,35 +137,50 @@ nav ul li {
     margin: 10px 0;
 }
 
-/* ---------------------------------- /Navigation */
+/* ---------------------------------- /Work History page content */
 
-/* ---------------------------------- /Home page content */
+/* ---------------------------------- About page content */
 
-article {
-    padding: 35px 0;
-}
-
-.home-welcome {
-    margin-top: 1.5rem;
-    text-align: center;
-}
-
-.testimonials {
+.about-aside{
     margin-top: 40px;
-    text-align: center;
 }
 
-/* ---------------------------------- /Home page content */
-
-/* ---------------------------------- /Work History page content */
-
-.work-history-content {
-    margin-top: 20px;
-    height: 570px;
-    overflow-y: scroll;
+.about-main{
+    margin-top: 40px;
 }
 
-/* ---------------------------------- /Work History page content */
+.resume-picture{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.info-left{
+    float: left;
+}
+
+.info-right{
+    float: left;
+    margin-left: 5px;
+}
+
+.progress{
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.skill-header{
+    margin-bottom: 2px;
+}
+
+.about-main .row{
+    margin-bottom: 30px;
+}
+
+.about-main p{
+    margin-bottom: 50px;
+}
+
+/* ---------------------------------- /About page content */
 
 /* ---------------------------------- /General helpers */
 
