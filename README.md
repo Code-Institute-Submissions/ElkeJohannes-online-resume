@@ -36,8 +36,8 @@ In terms of look and feel the website will feature nature backgrounds, some with
 The fonts will be Yeon Sung for the headlines with Song Myung for the main texts, to give a hint of asian affinity. 
 The chosen color scheme:
 ![Color scheme](assets/images/color-scheme.png)
-is based on the green nature backgrounds, with good contrasting colors for the menu and text. 
-All colors, fonts and images are chosen to be somewhat in line with things I am passionate about (Nature/permaculture, Japan) to aid in the "getting to know me" aspect of the website. 
+is based on the green nature backgrounds, with good contrasting colors for the menu and text.
+All colors, fonts and images are chosen to be somewhat in line with things I am passionate about (Nature/permaculture, Japan) to aid in the "getting to know me" aspect of the website. Added to this is a shade of darkgrey that is also in line with the above.
 
 ---
 
@@ -59,6 +59,7 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
 ---
 
 ## Testing
+* Ran into an issue where the job text would dissapear when you clicked on an item in the side-navigation. Fixed this by assigning static heights. Explanation for the problem found in [this stackoverflow question](https://stackoverflow.com/questions/16094785/have-a-fixed-position-div-that-needs-to-scroll-if-content-overflows)
 
 ---
 
