@@ -104,6 +104,11 @@ article {
     text-align: center;
 }
 
+.testimonial-img{
+    width: 100px;
+    height: 100px;
+}
+
 /* ---------------------------------- /Home page content */
 
 /* ---------------------------------- /Work History page content */
