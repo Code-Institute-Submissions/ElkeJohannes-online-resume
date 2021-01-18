@@ -4,16 +4,22 @@ body {
     padding: 0;
 }
 
+/* ---------------------------------- Variables */
+
+:root{
+--Dark-Purple: #8510a3;
+--Light-purple: #c00cf0;
+--Green: #01f00f;
+--Dark-orange: #a32b10;
+--Light-orange: #f0350c;
+--Dark-grey: #212529;
+}
+
+/* ---------------------------------- /Variables */
+
 /* ---------------------------------- Fonts and colors */
 
-/* 
-Dark Purple: 8510a3
-Light purple: c00cf0
-Green: 01f00f
-Dark orange: a32b10
-Light orange: f0350c
-Dark grey: #212529
-*/
+
 
 body {
     font-family: "Song Myung", sans-serif;
@@ -24,23 +30,23 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 a {
-    color: #212529;
+    color: var(--Dark-grey);
 }
 
 a:hover {
-    color: #8510a3;
+    color: var(--Dark-Purple);
 }
 
 .hr {
-    border-color: #212529;
+    border-color: var(--Dark-grey);
 }
 
 footer div.row {
-    background-color: #fff;
+    background-color: whitesmoke;
 }
 
 footer a {
-    color: #212529;
+    color: var(--Dark-grey);
 }
 
 .blockquote p {
@@ -49,11 +55,11 @@ footer a {
 }
 
 .job-toggler {
-    background-color: #212529;
+    background-color: var(--Dark-grey);
 }
 
 .job-navigation-content {
-    background-color: #fff;
+    background-color: whitesmoke;
 }
 
 /* ---------------------------------- /Fonts and colors */
@@ -61,7 +67,7 @@ footer a {
 /* ---------------------------------- Navigation */
 
 footer div.row {
-    padding-bottom: 10px;
+    padding: 3px 3px 13px 3px;
 }
 
 .navbar {
@@ -127,7 +133,7 @@ article {
     position: relative;
     right: 41px;
     bottom: 52px;
-    border: 1px solid #212529;
+    border: 1px solid var(--Dark-grey);
     border-radius: 5%;
 }
 
