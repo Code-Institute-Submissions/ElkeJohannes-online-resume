@@ -6,13 +6,16 @@ body {
 
 /* ---------------------------------- Variables */
 
-:root{
---Dark-Purple: #8510a3;
---Light-purple: #c00cf0;
---Green: #01f00f;
---Dark-orange: #a32b10;
---Light-orange: #f0350c;
---Dark-grey: #212529;
+:root {
+    --Dark-Purple: #8510a3;
+    --Light-purple: #c00cf0;
+    --Green: #01f00f;
+    --Light-green: #00F0A0;
+    --Dark-orange: #a32b10;
+    --Light-orange: #f0350c;
+    --Dark-grey: #212529;
+    --Transparant-grey: #495057ed;
+    --Teal: #7FD2D2;
 }
 
 /* ---------------------------------- /Variables */
@@ -29,30 +32,23 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 a {
-    color: var(--Dark-grey);
+    color: var(--Teal);
 }
 
 a:hover {
-    color: var(--Dark-Purple);
+    color: var(--Light-green);
+    text-decoration: none;
 }
 
 .hr {
     border-color: var(--Dark-grey);
 }
 
-.outer-container{
+.outer-container {
     min-height: 100vh;
     width: 100vw;
     background-color: rgb(255, 250, 250, 0.8);
     margin: 0 auto;
-}
-
-footer div.row {
-    background-color: whitesmoke;
-}
-
-footer a {
-    color: var(--Dark-grey);
 }
 
 .blockquote p {
@@ -68,16 +64,23 @@ footer a {
     background-color: whitesmoke;
 }
 
+nav {
+    background-color: var(--Transparant-grey);
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.nav-top ul{
+    background-color: var(--Transparant-grey);
+}
+
+
 /* ---------------------------------- /Fonts and colors */
 
 /* ---------------------------------- Navigation */
-
-footer div.row {
-    padding: 3px 3px 13px 3px;
-}
-
 .navbar {
     padding: 0;
+    height: 40px;
 }
 
 nav ul li {
@@ -88,8 +91,35 @@ nav ul li {
     padding-left: 10px;
 }
 
+nav {
+    width: 100%;
+}
+
+.footer-left {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+
 .footer-right {
-    text-align: end;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    justify-content: end;
+}
+
+.fixed-top{
+    left: auto;
+    right: auto;
+}
+
+.nav-icon{
+    width: 30px;
+    margin: 4px;
+    padding: 0px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 100%;
 }
 
 /* ---------------------------------- /Navigation */
@@ -110,7 +140,7 @@ article {
     text-align: center;
 }
 
-.testimonial-img{
+.testimonial-img {
     width: 100px;
     height: 100px;
 }
@@ -158,42 +188,42 @@ article {
 
 /* ---------------------------------- About page content */
 
-.about-aside{
+.about-aside {
     margin-top: 40px;
 }
 
-.about-main{
+.about-main {
     margin-top: 40px;
 }
 
-.resume-picture{
+.resume-picture {
     max-width: 200px;
     max-height: 200px;
 }
 
-.info-left{
+.info-left {
     float: left;
 }
 
-.info-right{
+.info-right {
     float: left;
     margin-left: 5px;
 }
 
-.progress{
+.progress {
     height: 20px;
     margin-bottom: 5px;
 }
 
-.skill-header{
+.skill-header {
     margin-bottom: 2px;
 }
 
-.about-main .row{
+.about-main .row {
     margin-bottom: 30px;
 }
 
-.about-main p{
+.about-main p {
     margin-bottom: 50px;
 }
 
@@ -220,14 +250,28 @@ article {
 /* ---------------------------------- Media Queries */
 
 @media(min-width: 567px) {
-    .outer-container{
+    .outer-container {
         width: 80vw;
-        /* background-color: rgba(197, 207, 207, 0.8); */
     }
-    
-    /* article {
-        padding: 35px 5%;
-    } */
+    .navbar {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .nav-top ul{
+        background-color: initial;
+    }
+    .footer-left {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        padding-left: 10px;
+    }
+    .footer-right {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        padding-right: 10px;
+    }
     .hr-wide {
         max-width: 70%;
     }
@@ -248,7 +292,7 @@ article {
         right: initial;
         bottom: initial;
     }
-    .job-navigation{
+    .job-navigation {
         padding-right: initial;
         padding-left: initial;
         position: fixed;
@@ -258,24 +302,14 @@ article {
         bottom: initial;
         border-right: 1px solid #212529;
     }
-    .navbar-brand, .footer-left {
-        padding-left: 15%;
-    }
-    nav .navbar, .footer-right {
-        padding-right: 17%;
-    }
 }
 
 @media(min-width: 992px) {
-    .outer-container{
+    .outer-container {
         width: 70vw;
-        /* background-color: rgba(197, 207, 207, 0.8); */
-    }    
-    .navbar-brand {
-        padding-left: 22%;
     }
-    nav .navbar {
-        padding-right: 30%;
+    .navbar {
+        width: 70vw;
     }
     .home-welcome {
         max-width: 80%;
