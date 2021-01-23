@@ -38,16 +38,13 @@ a {
 
 a:hover {
     color: var(--Light-green);
-    text-decoration: none;
 }
 
-.a-white-contrast{
+.a-white-contrast {
     color: var(--Light-purple);
-    font-weight: bold;
-    letter-spacing: 1px;
 }
 
-.a-white-contrast:hover{
+.a-white-contrast:hover {
     color: var(--Light-blue)
 }
 
@@ -56,15 +53,7 @@ a:hover {
 }
 
 .outer-container {
-    min-height: 100vh;
-    width: 100vw;
     background-color: rgb(255, 250, 250, 0.8);
-    margin: 0 auto;
-}
-
-.blockquote p {
-    font-size: 1rem;
-    font-style: italic;
 }
 
 .job-toggler {
@@ -77,18 +66,16 @@ a:hover {
 
 nav {
     background-color: var(--Transparant-grey);
-    font-weight: bold;
-    letter-spacing: 1.2px;
 }
 
-.nav-top ul{
+.nav-top ul {
     background-color: var(--Transparant-grey);
 }
-
 
 /* ---------------------------------- /Fonts and colors */
 
 /* ---------------------------------- Navigation */
+
 .navbar {
     padding: 0;
     height: 40px;
@@ -119,12 +106,12 @@ nav {
     justify-content: end;
 }
 
-.fixed-top{
+.fixed-top {
     left: auto;
     right: auto;
 }
 
-.nav-icon{
+.nav-icon {
     width: 30px;
     margin: 4px;
     padding: 0px;
@@ -137,12 +124,7 @@ nav {
 
 /* ---------------------------------- /Home page content */
 
-article {
-    padding: 35px 0;
-}
-
 .home-welcome {
-    margin-top: 1.5rem;
     text-align: center;
 }
 
@@ -161,7 +143,6 @@ article {
 /* ---------------------------------- /Work History page content */
 
 .work-history-content {
-    margin-top: 20px;
     height: 570px;
     overflow-y: scroll;
 }
@@ -199,14 +180,6 @@ article {
 
 /* ---------------------------------- About page content */
 
-.about-aside {
-    margin-top: 40px;
-}
-
-.about-main {
-    margin-top: 40px;
-}
-
 .resume-picture {
     max-width: 200px;
     max-height: 200px;
@@ -242,6 +215,27 @@ article {
 
 /* ---------------------------------- /General helpers */
 
+article{
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+.outer-container {
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.blockquote p {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+nav {
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
 .hr {
     margin: 0 auto;
     border-width: 2px;
@@ -256,6 +250,15 @@ article {
     max-width: 90%;
 }
 
+.a-white-contrast {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /* ---------------------------------- /General helpers */
 
 /* ---------------------------------- Media Queries */
@@ -268,7 +271,7 @@ article {
         width: 80vw;
         margin: 0 auto;
     }
-    .nav-top ul{
+    .nav-top ul {
         background-color: initial;
     }
     .footer-left {
@@ -292,9 +295,6 @@ article {
     .job-content {
         margin-left: 30%;
         max-width: 70%;
-    }
-    .home-welcome {
-        margin-top: 50px;
     }
     .job-navigation-content {
         position: inherit;
