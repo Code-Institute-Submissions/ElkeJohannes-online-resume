@@ -7,7 +7,7 @@ body {
 /* ---------------------------------- Variables */
 
 :root {
-    --Dark-Purple: #8510a3;
+    --Dark-purple: #6b0086;
     --Light-purple: #c00cf0;
     --Green: #01f00f;
     --Light-green: #00F0A0;
@@ -16,6 +16,7 @@ body {
     --Dark-grey: #212529;
     --Transparant-grey: #495057ed;
     --Teal: #7FD2D2;
+    --Light-blue: #6c2de6;
 }
 
 /* ---------------------------------- /Variables */
@@ -38,6 +39,16 @@ a {
 a:hover {
     color: var(--Light-green);
     text-decoration: none;
+}
+
+.a-white-contrast{
+    color: var(--Light-purple);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.a-white-contrast:hover{
+    color: var(--Light-blue)
 }
 
 .hr {
