@@ -143,10 +143,13 @@ nav {
 /* ---------------------------------- /Work History page content */
 
 .work-history-content {
-    height: 570px;
+    height: calc(100vh - 110px);
     overflow-y: scroll;
 }
 
+.work-history-content .row{
+    height: calc(100vh - 110px);
+}
 .job-toggler {
     width: 40px;
     height: 40px;
@@ -266,6 +269,8 @@ a:hover {
 @media(min-width: 567px) {
     .outer-container {
         width: 80vw;
+        min-height: initial;
+        height: calc(100vh - 80px);
     }
     .navbar {
         width: 80vw;
