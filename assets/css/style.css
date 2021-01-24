@@ -15,6 +15,7 @@ body {
     --Light-orange: #f0350c;
     --Dark-grey: #212529;
     --Transparant-grey: #495057ed;
+    --Solid-grey: #495057;
     --Teal: #7FD2D2;
     --Light-blue: #6c2de6;
 }
@@ -57,11 +58,20 @@ a:hover {
 }
 
 .job-toggler {
-    background-color: var(--Dark-grey);
+    background-color: var(--Transparant-grey);
+}
+
+.job-toggler-inner-circle:hover, .job-toggler-inner-circle:active{
+    border-color: var(--Teal);
 }
 
 .job-navigation-content {
-    background-color: whitesmoke;
+    background-color: var(--Solid-grey);
+}
+
+.job-navigation-content h6{
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 nav {
@@ -143,40 +153,43 @@ nav {
 /* ---------------------------------- /Work History page content */
 
 .work-history-content {
-    height: calc(100vh - 110px);
+    height: calc(100vh - 100px);
     overflow-y: scroll;
 }
 
-.work-history-content .row{
+.work-history-content .row {
     height: calc(100vh - 110px);
 }
+
 .job-toggler {
     width: 40px;
     height: 40px;
+    padding-top: 5px;
 }
 
-.job-navigation {
-    padding-right: 10px;
-    padding-left: 0;
+.job-toggler-inner-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0);
+    margin-left: 5px;
+}
+
+.job-navigation-button {
     position: fixed;
-    max-width: 200px;
     right: 5px;
-    bottom: 30px;
+    bottom: 45px;
     z-index: 5;
 }
 
 .job-navigation-content {
-    position: relative;
-    right: 41px;
-    bottom: 52px;
-    border: 1px solid var(--Dark-grey);
+    position: fixed;
+    right: 10px;
+    bottom: 90px;
+    border: 2px solid var(--Transparant-grey);
     border-radius: 5%;
-}
-
-.job-navigation a {
-    display: block;
-    line-height: 18px;
-    margin: 10px 0;
+    z-index: 5;
+    padding: 5px;
 }
 
 /* ---------------------------------- /Work History page content */
@@ -218,9 +231,9 @@ nav {
 
 /* ---------------------------------- /General helpers */
 
-article{
+article {
     margin-top: 40px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .outer-container {
@@ -267,6 +280,12 @@ a:hover {
 /* ---------------------------------- Media Queries */
 
 @media(min-width: 567px) {
+    article {
+        padding-top: 30px;
+    }
+    .work-history-content{
+        height: calc(100vh - 115px);
+    }
     .outer-container {
         width: 80vw;
         min-height: initial;
@@ -301,23 +320,23 @@ a:hover {
         margin-left: 30%;
         max-width: 70%;
     }
-    .job-navigation-content {
+    /* .job-navigation-content {
         position: inherit;
         border: initial;
         border-radius: initial;
         right: initial;
         bottom: initial;
-    }
-    .job-navigation {
+    } */
+    /* .job-navigation {
         padding-right: initial;
         padding-left: initial;
         position: fixed;
-        height: 570px;
+        height: inherit;
         max-width: 200px;
         right: initial;
         bottom: initial;
         border-right: 1px solid #212529;
-    }
+    } */
 }
 
 @media(min-width: 992px) {
@@ -329,9 +348,6 @@ a:hover {
     }
     .home-welcome {
         max-width: 80%;
-    }
-    .job-navigation {
-        max-width: 18%;
     }
 }
 
