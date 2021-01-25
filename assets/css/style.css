@@ -61,7 +61,7 @@ a:hover {
     background-color: var(--Transparant-grey);
 }
 
-.job-toggler-inner-circle:hover, .job-toggler-inner-circle:active{
+.job-toggler-inner-circle:hover, .job-toggler-inner-circle:active {
     border-color: var(--Teal);
 }
 
@@ -69,7 +69,7 @@ a:hover {
     background-color: var(--Solid-grey);
 }
 
-.job-navigation-content h6{
+.job-navigation-content h6 {
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -152,8 +152,6 @@ nav {
 
 /* ---------------------------------- /Work History page content */
 
-
-
 .work-history-content .row {
     height: calc(100vh - 110px);
 }
@@ -164,7 +162,7 @@ nav {
     padding-top: 5px;
 }
 
-.job-toggler-inner-circle{
+.job-toggler-inner-circle {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -190,23 +188,23 @@ nav {
     line-height: normal;
 }
 
-.work-date-divider{
+.work-date-divider {
     height: 8px;
 }
 
-.job-navigation-content h6{
+.job-navigation-content h6 {
     margin-bottom: 0px;
     line-height: 18px;
     font-size: 17px;
 }
 
-.work-date{
+.work-date {
     font-style: italic;
     line-height: 16px;
     font-size: 14px;
 }
 
-.job-navigation-content div:nth-child(3){
+.job-navigation-content div:nth-child(3) {
     margin-bottom: 10px;
 }
 
@@ -219,13 +217,17 @@ nav {
     max-height: 200px;
 }
 
-.info-left {
-    float: left;
+.about-main, .about-aside {
+    text-align: center;
 }
 
-.info-right {
-    float: left;
-    margin-left: 5px;
+.info-left, .info-right {
+    display: inline-block;
+    text-align: left;
+}
+
+.info-left {
+    margin-left: 10px;
 }
 
 .progress {
@@ -237,14 +239,13 @@ nav {
     margin-bottom: 2px;
 }
 
-.about-main .row {
-    margin-bottom: 30px;
-}
-
 .about-main p {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
+.skills{
+    margin: 20px 0px;
+}
 /* ---------------------------------- /About page content */
 
 /* ---------------------------------- /General helpers */
@@ -306,7 +307,7 @@ a:hover {
     article {
         padding-top: 30px;
     }
-    .container-fluid{
+    .container-fluid {
         height: calc(100vh - 110px);
     }
     .outer-container {
@@ -339,12 +340,25 @@ a:hover {
     }
     .job-content {
         margin-left: 31%;
-        max-width: 70%;
+        max-width: 69%;
     }
     .job-navigation-content {
         right: initial;
         bottom: initial;
         max-width: 180px;
+    }
+    .about-main, .about-aside {
+        text-align: left;
+    }
+    .info-left {
+        margin-left: 0px;
+    }
+    .info-right, .info-left {
+        font-size: 0.9rem;
+    }
+    .resume-picture{
+        margin-left: 5px;
+        margin-bottom: 10px;
     }
 }
 
