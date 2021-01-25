@@ -29,7 +29,7 @@ body {
     background: url("../images/background-1.jpg") center center no-repeat;
 }
 
-h1, h2, h3, h4, h5, h6, .navbar {
+h1, h2, h3, h4, h5, h6, .navbar, .job-navigation-content div {
     font-family: "Yeon Sung", sans-serif;
 }
 
@@ -152,10 +152,7 @@ nav {
 
 /* ---------------------------------- /Work History page content */
 
-.work-history-content {
-    height: calc(100vh - 100px);
-    overflow-y: scroll;
-}
+
 
 .work-history-content .row {
     height: calc(100vh - 110px);
@@ -190,6 +187,27 @@ nav {
     border-radius: 5%;
     z-index: 5;
     padding: 5px;
+    line-height: normal;
+}
+
+.work-date-divider{
+    height: 8px;
+}
+
+.job-navigation-content h6{
+    margin-bottom: 0px;
+    line-height: 18px;
+    font-size: 17px;
+}
+
+.work-date{
+    font-style: italic;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+.job-navigation-content div:nth-child(3){
+    margin-bottom: 10px;
 }
 
 /* ---------------------------------- /Work History page content */
@@ -236,8 +254,13 @@ article {
     padding-top: 10px;
 }
 
+.container-fluid {
+    height: calc(100vh - 90px);
+    padding-left: 10px;
+    overflow-y: scroll;
+}
+
 .outer-container {
-    min-height: 100vh;
     width: 100vw;
     margin: 0 auto;
 }
@@ -283,13 +306,11 @@ a:hover {
     article {
         padding-top: 30px;
     }
-    .work-history-content{
-        height: calc(100vh - 115px);
+    .container-fluid{
+        height: calc(100vh - 110px);
     }
     .outer-container {
         width: 80vw;
-        min-height: initial;
-        height: calc(100vh - 80px);
     }
     .navbar {
         width: 80vw;
@@ -317,26 +338,14 @@ a:hover {
         max-width: 90%;
     }
     .job-content {
-        margin-left: 30%;
+        margin-left: 31%;
         max-width: 70%;
     }
-    /* .job-navigation-content {
-        position: inherit;
-        border: initial;
-        border-radius: initial;
+    .job-navigation-content {
         right: initial;
         bottom: initial;
-    } */
-    /* .job-navigation {
-        padding-right: initial;
-        padding-left: initial;
-        position: fixed;
-        height: inherit;
-        max-width: 200px;
-        right: initial;
-        bottom: initial;
-        border-right: 1px solid #212529;
-    } */
+        max-width: 180px;
+    }
 }
 
 @media(min-width: 992px) {
