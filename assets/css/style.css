@@ -33,11 +33,11 @@ h1, h2, h3, h4, h5, h6, .navbar, .job-navigation-content div {
     font-family: "Yeon Sung", sans-serif;
 }
 
-a {
+a, button {
     color: var(--Teal);
 }
 
-a:hover {
+a:hover, .btn-secondary:hover {
     color: var(--Light-green);
 }
 
@@ -80,6 +80,11 @@ nav {
 
 .nav-top ul {
     background-color: var(--Transparant-grey);
+}
+
+.btn-secondary{
+    background-color: var(--Transparant-grey);
+    color: var(--Teal);
 }
 
 /* ---------------------------------- /Fonts and colors */
@@ -156,6 +161,9 @@ nav {
     height: calc(100vh - 110px);
 }
 
+.work-history-content{
+    overflow-y: scroll;
+}
 .job-toggler {
     width: 40px;
     height: 40px;
@@ -248,6 +256,15 @@ nav {
 }
 /* ---------------------------------- /About page content */
 
+/* ---------------------------------- Contact page content */
+
+a.contact-email {
+    vertical-align: middle;
+    justify-content: right;
+}
+
+/* ---------------------------------- /Contact page content */
+
 /* ---------------------------------- /General helpers */
 
 article {
@@ -258,7 +275,6 @@ article {
 .container-fluid {
     height: calc(100vh - 90px);
     padding-left: 10px;
-    overflow-y: scroll;
 }
 
 .outer-container {
