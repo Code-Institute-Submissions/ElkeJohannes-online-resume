@@ -74,10 +74,6 @@ a:hover, .btn-secondary:hover {
     letter-spacing: 1px;
 }
 
-.job-content .work-header{
-    /* color: var(--Teal); */
-}
-
 nav {
     background-color: var(--Transparant-grey);
 }
@@ -214,6 +210,11 @@ nav {
     font-style: italic;
     line-height: 16px;
     font-size: 14px;
+}
+
+.work-description{
+    line-height: 17px;
+    font-size: 15px;
 }
 
 .job-navigation-content div:nth-child(3) {
@@ -359,8 +360,7 @@ a:hover {
         max-width: 90%;
     }
     .job-content {
-        margin-left: 31%;
-        max-width: 69%;
+        margin-left: 7%;
     }
     .job-navigation-content {
         right: initial;
@@ -391,6 +391,10 @@ a:hover {
     }
     .home-welcome {
         max-width: 80%;
+    }
+
+    .job-content {
+        margin-left: 3%;
     }
 }
 
