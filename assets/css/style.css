@@ -69,9 +69,13 @@ a:hover, .btn-secondary:hover {
     background-color: var(--Solid-grey);
 }
 
-.job-navigation-content h6 {
+.work-header {
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+.job-content .work-header{
+    /* color: var(--Teal); */
 }
 
 nav {
@@ -200,7 +204,7 @@ nav {
     height: 8px;
 }
 
-.job-navigation-content h6 {
+.work-header {
     margin-bottom: 0px;
     line-height: 18px;
     font-size: 17px;
