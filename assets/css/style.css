@@ -82,7 +82,7 @@ nav {
     background-color: var(--Transparant-grey);
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: var(--Transparant-grey);
     color: var(--Teal);
 }
@@ -161,9 +161,10 @@ nav {
     height: calc(100vh - 110px);
 }
 
-.work-history-content{
+.work-history-content {
     overflow-y: scroll;
 }
+
 .job-toggler {
     width: 40px;
     height: 40px;
@@ -212,7 +213,7 @@ nav {
     font-size: 14px;
 }
 
-.work-description{
+.work-description {
     line-height: 17px;
     font-size: 15px;
 }
@@ -228,6 +229,25 @@ nav {
 .resume-picture {
     max-width: 200px;
     max-height: 200px;
+}
+
+.progress-bar {
+    animation-duration: 1.5s;
+}
+
+.progress-html {
+    animation-name: load-progressbar-html;
+    width: 85%;
+}
+
+.progress-css3 {
+    animation-name: load-progressbar-css3;
+    width: 78%;
+}
+
+.progress-bootstrap45 {
+    animation-name: load-progressbar-bootstrap45;
+    width: 40%;
 }
 
 .about-main, .about-aside {
@@ -256,9 +276,10 @@ nav {
     margin-bottom: 40px;
 }
 
-.skills{
+.skills {
     margin: 20px 0px;
 }
+
 /* ---------------------------------- /About page content */
 
 /* ---------------------------------- Contact page content */
@@ -268,7 +289,7 @@ a.contact-email {
     justify-content: right;
 }
 
-.contact-content{
+.contact-content {
     overflow-y: scroll;
 }
 
@@ -326,6 +347,43 @@ a:hover {
 
 /* ---------------------------------- /General helpers */
 
+/* ---------------------------------- Keyframes */
+
+@keyframes load-progressbar-html {
+    from {
+        width: 0%;
+        aria-valuenow: 0;
+    }
+    to {
+        width: 85%;
+        aria-valuenow: 85;
+    }
+}
+
+@keyframes load-progressbar-css3 {
+    from {
+        width: 0%;
+        aria-valuenow: 0;
+    }
+    to {
+        width: 78%;
+        aria-valuenow: 78;
+    }
+}
+
+@keyframes load-progressbar-bootstrap45 {
+    from {
+        width: 0%;
+        aria-valuenow: 0;
+    }
+    to {
+        width: 40%;
+        aria-valuenow: 40;
+    }
+}
+
+/* ---------------------------------- /Keyframes */
+
 /* ---------------------------------- Media Queries */
 
 @media(min-width: 567px) {
@@ -380,7 +438,7 @@ a:hover {
     .info-right, .info-left {
         font-size: 0.9rem;
     }
-    .resume-picture{
+    .resume-picture {
         margin-left: 5px;
         margin-bottom: 10px;
     }
@@ -396,7 +454,6 @@ a:hover {
     .home-welcome {
         max-width: 80%;
     }
-
     .job-content {
         margin-left: 3%;
     }
