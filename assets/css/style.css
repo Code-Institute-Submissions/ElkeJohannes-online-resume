@@ -133,6 +133,7 @@ nav {
     border: 2px solid var(--Teal);
     background-color: var(--Teal);
     border-radius: 100%;
+    display: block;
 }
 
 /* ---------------------------------- /Navigation */
