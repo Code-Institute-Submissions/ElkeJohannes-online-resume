@@ -7,12 +7,8 @@ body {
 /* ---------------------------------- Variables */
 
 :root {
-    --Dark-purple: #6b0086;
     --Light-purple: #c00cf0;
-    --Green: #01f00f;
     --Light-green: #00F0A0;
-    --Dark-orange: #a32b10;
-    --Light-orange: #f0350c;
     --Dark-grey: #212529;
     --Transparant-grey: #495057ed;
     --Solid-grey: #495057;
@@ -138,7 +134,7 @@ nav {
 
 /* ---------------------------------- /Navigation */
 
-/* ---------------------------------- /Home page content */
+/* ---------------------------------- Home page content */
 
 .home-welcome {
     text-align: center;
@@ -156,7 +152,7 @@ nav {
 
 /* ---------------------------------- /Home page content */
 
-/* ---------------------------------- /Work History page content */
+/* ---------------------------------- Work History page content */
 
 .work-history-content .row {
     height: calc(100vh - 110px);
@@ -296,7 +292,7 @@ a.contact-email {
 
 /* ---------------------------------- /Contact page content */
 
-/* ---------------------------------- /General helpers */
+/* ---------------------------------- General helpers */
 
 article {
     margin-top: 40px;
