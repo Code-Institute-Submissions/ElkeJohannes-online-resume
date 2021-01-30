@@ -36,8 +36,8 @@ In terms of look and feel the website will feature nature backgrounds, some with
 The fonts will be Yeon Sung for the headlines with Song Myung for the main texts, to give a hint of asian affinity. 
 The chosen color scheme:
 ![Color scheme](assets/images/color-scheme.png)
-is based on the green nature backgrounds, with good contrasting colors for the menu and text.
-All colors, fonts and images are chosen to be somewhat in line with things I am passionate about (Nature/permaculture, Japan) to aid in the "getting to know me" aspect of the website. Added to this is a shade of darkgrey that is also in line with the above.
+is based on the green nature backgrounds, with good contrasting colors for the menu and text. Only the purple colors will be used to contrast the green. 
+All colors, fonts and images are chosen to be somewhat in line with things I am passionate about (Nature/permaculture, Japan) to aid in the "getting to know me" aspect of the website. Added to this is a shade of grey that is also in line with the above. Last there are a shade of teal and blue that contrast well and look esthetically pleasing. 
 
 ---
 
@@ -45,9 +45,11 @@ All colors, fonts and images are chosen to be somewhat in line with things I am 
 
 ### Existing features
 - On the Work History page you can click on the dates in the timeline so jump to the appropriate section in the text. On Mobile this function sits behind a circular button on the bottom right. 
+- When the 'About me' page is loaded, the progressbars are filled in with an animation.  
 
 ### Features Left to Implement
-- 
+- A showcase of my portfolio of websites in (for example) a carousel. 
+
 ---
 
 ## Technologies Used
@@ -55,12 +57,46 @@ All colors, fonts and images are chosen to be somewhat in line with things I am 
 HTML5 and CSS3 were used as the languages in which this site was made. Additionally the following frameworks/libraries were used:
 - [Bootstrap 4.5](https://getbootstrap.com/)
     - The project uses **Bootstrap 4.5** to quickly setup mobile first design, and uses some features as described above in the features section.
+- [Font Awesome](https://fontawesome.com/)
+    - A few icons are taken to improve the attrativeness of the site
 
 ---
 
 ## Testing
+### Code validators
 * Tested for valid code using [w3 validator](https://validator.w3.org/nu/#textarea)
 * Tested for accessibility using [achecker](https://achecker.ca/checker/index.php)
+
+### User story tests
+- As a potential employer, I want to be able to see what Elke has done in the past, to help me decide if I want to hire him.
+    * The "About me" and "what I can do" hyperlinks on the frontpage take you directly to the relevant information. These can also be navigated using the menu at the top of the screen. 
+- As a recruiter, I want to be able to see Elke's resume, to determine his marketability to my clients. 
+    * The "About me" and "what I can do" hyperlinks on the frontpage take you directly to the relevant information. There is also a link in the footer to download a traditional C.V.
+- As someone with a great idea, I want to get a feel for Elke's personality, to determine if I would want to collaborate with him. 
+    * Using the menu at the top of the screen, you can click on the contact page which takes you to a form to do this. 
+
+### Manual testing
+1. Open the website in Chrome developer tools (press F12)
+2. Toggle the devices toolbar
+3. Drag the bar on the side of the website from right to left to change the screen size
+    * Verify the site looks as expected on all sizes
+4. Click on the bars at the top labeled mobile, tablet and laptop with respective sizes. 
+    * Verify the site looks as expected on all sizes
+5. Click on the Page titles in the top menu
+    * Verify you are taken to the corresponding page every time
+6. On the 'Home' page, click on the purple texts 'about me' and 'what I can do'
+    * Verify you are taken to the 'About me' and 'Work History' pages.
+7. Click on the 'Download a  pdf version of my C.V.' link on the bottom of the page
+    * Verify a new tab opens displaying a pdf version of my C.V.
+8. Click on the LinkedIn button on the bottom right of the page
+    * Verify a new tab opens displaying my LinkedIn page
+9. Click on the GitHub button on the bottom right of the page
+    * Verify a new tab opens displaying my GitHub page
+10. Go to the Work History page using the menu at the top.
+11. Click on the titles/dates on the left
+    * Verify you are taken to the corresponding text on the right side (main part) of the screen. 
+12. While still on the Work History page, open Chrome developer tools again (press F12)
+
 
 ## Bugs encountered
 1. The job text dissapears when you click on an item in the side-navigation. 
