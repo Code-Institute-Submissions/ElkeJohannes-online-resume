@@ -67,6 +67,8 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
     * Fixed by assigning static heights. Explanation for the problem found in [this stackoverflow question](https://stackoverflow.com/questions/16094785/have-a-fixed-position-div-that-needs-to-scroll-if-content-overflows)
 2. At the larger screen sizes the columns on the work history page no longer allign.
     * Fixed by removing the number of columns in the class name. This enables it to just fill up the remaining space besides the first column.
+3. At mobile screen size, the background overlay does not display all the way down the page (stops after assigned height)
+    * Fixed by adding the property overflow: auto and rearranging the order of elements in the css.
     
 ---
 

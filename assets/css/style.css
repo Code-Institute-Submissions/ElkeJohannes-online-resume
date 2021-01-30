@@ -14,6 +14,8 @@ body {
     --Solid-grey: #495057;
     --Teal: #7FD2D2;
     --Light-blue: #6c2de6;
+    --Font-headers: "Song Myung", sans-serif;
+    --Font-text: "Yeon Sung", sans-serif;
 }
 
 /* ---------------------------------- /Variables */
@@ -21,12 +23,12 @@ body {
 /* ---------------------------------- Fonts and colors */
 
 body {
-    font-family: "Song Myung", sans-serif;
+    font-family: var(--Font-headers);
     background: url("../images/background-1.jpg") center center no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar, .job-navigation-content div {
-    font-family: "Yeon Sung", sans-serif;
+    font-family: var(--Font-text);
 }
 
 a, button {
@@ -84,6 +86,59 @@ nav {
 }
 
 /* ---------------------------------- /Fonts and colors */
+
+/* ---------------------------------- General helpers */
+
+article {
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.container-fluid {
+    height: calc(100vh - 90px);
+    padding-left: 10px;
+    overflow-y: auto;
+}
+
+.outer-container {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.blockquote p {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+nav {
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.hr {
+    margin: 0 auto;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+.hr-short {
+    max-width: 30%;
+}
+
+.hr-wide {
+    max-width: 90%;
+}
+
+.a-white-contrast {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ---------------------------------- /General helpers */
 
 /* ---------------------------------- Navigation */
 
@@ -291,58 +346,6 @@ a.contact-email {
 }
 
 /* ---------------------------------- /Contact page content */
-
-/* ---------------------------------- General helpers */
-
-article {
-    margin-top: 40px;
-    padding-top: 10px;
-}
-
-.container-fluid {
-    height: calc(100vh - 90px);
-    padding-left: 10px;
-}
-
-.outer-container {
-    width: 100vw;
-    margin: 0 auto;
-}
-
-.blockquote p {
-    font-size: 1rem;
-    font-style: italic;
-}
-
-nav {
-    font-weight: bold;
-    letter-spacing: 1.2px;
-}
-
-.hr {
-    margin: 0 auto;
-    border-width: 2px;
-    border-radius: 50%;
-}
-
-.hr-short {
-    max-width: 30%;
-}
-
-.hr-wide {
-    max-width: 90%;
-}
-
-.a-white-contrast {
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-/* ---------------------------------- /General helpers */
 
 /* ---------------------------------- Keyframes */
 
