@@ -341,8 +341,9 @@ a.contact-email {
     justify-content: right;
 }
 
-.contact-content {
-    overflow-y: scroll;
+.form-control{
+    max-height: 150px;
+    max-width: 450px;
 }
 
 /* ---------------------------------- /Contact page content */
