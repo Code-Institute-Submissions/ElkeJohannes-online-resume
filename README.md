@@ -75,13 +75,14 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
 - As someone with a great idea, I want to get a feel for Elke's personality, to determine if I would want to collaborate with him. 
     * Using the menu at the top of the screen, you can click on the contact page which takes you to a form to do this. 
 
-### Manual testing
+### Test script
 1. Open the website in Chrome developer tools (press F12)
-2. Toggle the devices toolbar
+2. Toggle the devices toolbar (press Ctrl + Shift + M)
 3. Drag the bar on the side of the website from right to left to change the screen size
     * Verify the site looks as expected on all sizes
 4. Click on the bars at the top labeled mobile, tablet and laptop with respective sizes. 
     * Verify the site looks as expected on all sizes
+    * Close the developer tools afterwards (press F12 again)
 5. Click on the Page titles in the top menu
     * Verify you are taken to the corresponding page every time
 6. On the 'Home' page, click on the purple texts 'about me' and 'what I can do'
@@ -96,6 +97,11 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
 11. Click on the titles/dates on the left
     * Verify you are taken to the corresponding text on the right side (main part) of the screen. 
 12. While still on the Work History page, open Chrome developer tools again (press F12)
+13. Open the devices toolbar (press Ctrl + Shift + M)
+14. Set the screen size to mobile by clicking on the middle bar at the top (320px)
+15. Click on the round dark grey circle on the bottom right
+16. Click on the job titles/dates
+    * Verify you are taken to the corresponding parts of text
 
 
 ## Bugs encountered
@@ -109,6 +115,22 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
 ---
 
 ## Deployment
+
+### Fork this repository
+1. Login to [GitHub](https://github.com)
+2. Browse to the [repository](https://github.com/ElkeJohannes/online-resume)
+3. On the top right of the page, there should be a button that says 'Fork'. Click on this button to fork a copy of the site to your own repositories. 
+
+### Local deployment
+To deploy this website locally or on another hosted webserver, all that is needed is a working webserver. Provided you have that, proceed with the steps below.
+1. Go to the [GitHub repository](https://github.com/ElkeJohannes/online-resume)
+2. Click on the green button that says Code
+3. Click the bottom option to download the ZIP
+4. Unpack the zip file on your webserver in the folder where you want to run it from
+
+*The starting page is meant to be index.html. If your webserver is not configured to start with this page by default, you will need to configure it to do so. 
+
+Alternatively you can clone this repository by using the GitHub cli. Should you wish to do so, use this command: gh repo clone ElkeJohannes/online-resume
 
 ---
 
