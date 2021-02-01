@@ -70,10 +70,13 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
 ### User story tests
 - As a potential employer, I want to be able to see what Elke has done in the past, to help me decide if I want to hire him.
     * The "About me" and "what I can do" hyperlinks on the frontpage take you directly to the relevant information. These can also be navigated using the menu at the top of the screen. 
+    ![Hyperlinks & menu](assets/images/screenshot-story-employer.png)
 - As a recruiter, I want to be able to see Elke's resume, to determine his marketability to my clients. 
     * The "About me" and "what I can do" hyperlinks on the frontpage take you directly to the relevant information. There is also a link in the footer to download a traditional C.V.
+    ![Hyperlinks & menu](assets/images/screenshot-story-recruiter.png)
 - As someone with a great idea, I want to get a feel for Elke's personality, to determine if I would want to collaborate with him. 
     * Using the menu at the top of the screen, you can click on the contact page which takes you to a form to do this. 
+    ![Hyperlinks & menu](assets/images/screenshot-story-collaborator.png)
 
 ### Test script
 1. Open the website in Chrome developer tools (press F12)
@@ -115,6 +118,14 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
 ---
 
 ## Deployment
+### Deployment to GitHub pages
+When deploying to GitHub pages, I've used the following steps
+1. Login to [GitHub](https://github.com)
+2. Browse to the [repository](https://github.com/ElkeJohannes/online-resume)
+3. Click on the Settings tab
+4. Scroll down to the GitHub pages section
+5. Click the Select a branch button and select Master
+6. Click Save
 
 ### Fork this repository
 1. Login to [GitHub](https://github.com)
