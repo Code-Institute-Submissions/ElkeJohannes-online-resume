@@ -27,8 +27,8 @@ Being a simplistic site in terms of content, the lay-out will be matching that s
 
 ### Skeleton
 - [Home](https://github.com/ElkeJohannes/online-resume/blob/master/assets/wireframes/Home.png)
-- [Work History](https://github.com/ElkeJohannes/online-resume/blob/master/assets/wireframes/Work%20History.png)
-- [About Me](https://github.com/ElkeJohannes/online-resume/blob/master/assets/wireframes/About%20Me.png)
+- [Work History](https://github.com/ElkeJohannes/online-resume/blob/master/assets/wireframes/Work-History.png)
+- [About Me](https://github.com/ElkeJohannes/online-resume/blob/master/assets/wireframes/About-Me.png)
 - [Contact](https://github.com/ElkeJohannes/online-resume/blob/master/assets/wireframes/Contact.png)
 
 ### Surface
@@ -114,6 +114,10 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
     * Fixed by removing the number of columns in the class name. This enables it to just fill up the remaining space besides the first column.
 3. At mobile screen size, the background overlay does not display all the way down the page (stops after assigned height)
     * Fixed by adding the property overflow: auto and rearranging the order of elements in the css.
+4. After deployment to Github pages, the C.V. download link no longer works.
+    * The cause of this was Github changing the regular letters to capital letters. Changed code now to match. 
+5. After deployment to Github pages, two wireframe links were no longer working. 
+    * User error (me), misspelled the name of the files. 
     
 ---
 
