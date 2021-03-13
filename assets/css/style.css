@@ -341,7 +341,7 @@ a.contact-email {
     justify-content: right;
 }
 
-.form-control{
+.form-control {
     max-height: 150px;
     max-width: 450px;
 }
@@ -353,33 +353,27 @@ a.contact-email {
 @keyframes load-progressbar-html {
     from {
         width: 0%;
-        aria-valuenow: 0;
     }
     to {
         width: 85%;
-        aria-valuenow: 85;
     }
 }
 
 @keyframes load-progressbar-css3 {
     from {
         width: 0%;
-        aria-valuenow: 0;
     }
     to {
         width: 78%;
-        aria-valuenow: 78;
     }
 }
 
 @keyframes load-progressbar-bootstrap45 {
     from {
         width: 0%;
-        aria-valuenow: 0;
     }
     to {
         width: 40%;
-        aria-valuenow: 40;
     }
 }
 
