@@ -214,7 +214,7 @@ nav {
 }
 
 .work-history-content {
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .job-toggler {
