@@ -27,7 +27,7 @@ body {
     background: url("../images/background-1.jpg") center center no-repeat;
 }
 
-h1, h2, h3, h4, h5, h6, .navbar, .job-navigation-content div {
+h1, h2, h3, .navbar, .job-navigation-content div {
     font-family: var(--Font-text);
 }
 
@@ -89,13 +89,13 @@ nav {
 
 /* ---------------------------------- General helpers */
 
-article {
+.home-content, .contact-content, .work-history-content, .about-content {
     margin-top: 40px;
     padding-top: 10px;
 }
 
 .container-fluid {
-    height: calc(100vh - 90px);
+    height: calc(100vh - 80px);
     padding-left: 10px;
     overflow-y: auto;
 }
@@ -108,6 +108,11 @@ article {
 .blockquote p {
     font-size: 1rem;
     font-style: italic;
+}
+
+p {
+    line-height: 18px;
+    font-size: 15px;
 }
 
 nav {
@@ -127,6 +132,10 @@ nav {
 
 .hr-wide {
     max-width: 90%;
+}
+
+.hr-content-divider {
+    margin: 30px auto;
 }
 
 .a-white-contrast {
@@ -191,12 +200,24 @@ nav {
 
 /* ---------------------------------- Home page content */
 
-.home-welcome {
+.home-content {
     text-align: center;
 }
 
+.home-content h2{
+    font-size: 40px;
+}
+
+.testimonials-header {
+    margin-bottom: 30px;
+}
+
+.testimonials-header h3{
+    font-size: 24px;
+}
+
 .testimonials {
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -256,7 +277,7 @@ nav {
 .work-header {
     margin-bottom: 0px;
     line-height: 18px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .work-date {
@@ -265,13 +286,16 @@ nav {
     font-size: 14px;
 }
 
-.work-description {
-    line-height: 17px;
-    font-size: 15px;
-}
-
 .job-navigation-content div:nth-child(3) {
     margin-bottom: 10px;
+}
+
+.job-history h6 {
+    font-size: 17px;
+}
+
+.job-history .work-date {
+    font-weight: bold;
 }
 
 /* ---------------------------------- /Work History page content */
@@ -281,6 +305,7 @@ nav {
 .resume-picture {
     max-width: 200px;
     max-height: 200px;
+    margin-bottom: 10px;
 }
 
 .progress-bar {
@@ -304,6 +329,10 @@ nav {
 
 .about-main, .about-aside {
     text-align: center;
+}
+
+.about-content .about-main  {
+    padding-right: 10px;
 }
 
 .info-left, .info-right {
@@ -330,6 +359,10 @@ nav {
 
 .skills {
     margin: 20px 0px;
+}
+
+.skills h6 {
+    text-align: left;
 }
 
 /* ---------------------------------- /About page content */
@@ -382,11 +415,11 @@ a.contact-email {
 /* ---------------------------------- Media Queries */
 
 @media(min-width: 567px) {
-    article {
+    .home-content, .contact-content, .work-history-content, .about-content {
         padding-top: 30px;
     }
     .container-fluid {
-        height: calc(100vh - 110px);
+        height: calc(100vh - 80px);
     }
     .outer-container {
         width: 80vw;
@@ -413,7 +446,7 @@ a.contact-email {
     .hr-wide {
         max-width: 70%;
     }
-    .home-welcome {
+    .home-content {
         max-width: 90%;
     }
     .job-content {
@@ -435,7 +468,6 @@ a.contact-email {
     }
     .resume-picture {
         margin-left: 5px;
-        margin-bottom: 10px;
     }
 }
 
@@ -446,7 +478,7 @@ a.contact-email {
     .navbar {
         width: 70vw;
     }
-    .home-welcome {
+    .home-content {
         max-width: 80%;
     }
     .job-content {
