@@ -12,29 +12,31 @@
     <title>Elke Johannes Harmanny</title>
 </head>
 
-
 <body>
     <div class="outer-container">
+        <!-- Top navigation bar -->
         <nav class="navbar navbar-expand-sm fixed-top nav-top">
 
             <a class="navbar-brand" href="index.html">Elke Harmanny</a>
 
+            <!-- Navbar toggler for mobile devices -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle page navigation">
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="nav-icon"></span>
                 <span class="nav-icon"></span>
                 <span class="nav-icon"></span>
             </button>
 
+            <!--  Set the navbar to collapse on small screen -->
             <ul class="navbar navbar-nav collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a href="index.html" class="nav-link" aria-label="Click here to visit the home page">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="work-history.html" class="nav-link"
                         aria-label="Click here to visit the Work History page">Work History</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="about.html" class="nav-link" aria-label="Click here to visit the About me page">About
                         me</a>
                 </li>
@@ -46,78 +48,77 @@
         </nav>
 
         <div class="container-fluid about-content">
-            <div class="row justify-content-center">
-                <div class="col-xl-9">
-                    <div class="row no-gutters">
-                        <aside class="col-sm-5 col-lg-4 about-aside">
-                            <img src="assets/images/ik.jpg" class="resume-picture" alt="Close up of Elke Harmanny">
-                            <div>
-                                <h4>Personal Information:</h4>
-                                <p class="info-left">
-                                    Name:<br>
-                                    Address:<br>
-                                    City:<br>
-                                    Email:
-                                </p>
-                                <p class="info-right">
-                                    Elke Harmanny<br>
-                                    Paardebloem 22<br>
-                                    Kampen<br>
-                                    ejharmanny@gmail.com
-                                </p>
+            <div class="row no-gutters justify-content-center">
+                <!-- Picture and address info on the left of the page
+                    This will shift dynamically in size depending on the screen size -->
+                <aside class="col-sm-5 col-lg-4 col-xl-3 about-aside">
+                    <img src="assets/images/ik.jpg" class="resume-picture" alt="Close up of Elke Harmanny">
+                    <div class="about-aside-text">
+                        <h4>Personal Information</h4>
+                        <p class="info-left">
+                            Name:<br>
+                            Address:<br>
+                            City:<br>
+                            Email:
+                        </p>
+                        <p class="info-right">
+                            Elke Harmanny<br>
+                            Paardebloem 22<br>
+                            Kampen<br>
+                            ejharmanny@gmail.com
+                        </p>
+                    </div>
+                    <hr class="hr-wide d-sm-none">
+                </aside>
+                <div class="col-sm about-main">
+                    <!-- Background info and skills fit in the article element -->
+                    <article>
+                        <header>
+                            <h2>My background</h2>
+                        </header>
+                        <p>
+                            Ever since I was in high school I have played around with HTML and CSS.
+                            However during my IT education I thought that instead I wanted
+                            to persue the Network,- and systemsadministrator direction. Since
+                            then I have had serveral jobs in that area, which I have enjoyed.
+                            The birth of my daughter at the start of 2020 made me take another look at
+                            my career choices. After a year of getting used to parenthood, and
+                            self reflection I have come to the conclusion that
+                            I would to pursue development instead.
+                        </p>
+
+                        <hr class="hr-wide hr-content-divider">
+                        
+                        <!-- Skills listing -->
+                        <div class="skills">
+                            <h4>My Skills:</h4>
+                            <h6 class="skill-header"><i class="fab fa-html5"></i> HTML5</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info progress-html" role="progressbar" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100"
+                                    aria-label="Progressbar showing 85% progress in HTML5">85%</div>
                             </div>
-                            <hr class="hr-wide d-sm-none">
-                        </aside>
-                        <div class="col-sm about-main">
-                            <div class="row">
-                                <div class="col">
-                                    <article>
-                                        <header>
-                                            <h2>My background</h2>
-                                        </header>
-                                        <p>
-                                            Ever since I was in high school I have played around with HTML and CSS.
-                                            However during my IT education I thought that instead I wanted 
-                                            to persue the Network,- and systemsadministrator direction. Since
-                                             then I have had serveral jobs in that area, which I have enjoyed.
-                                            The birth of my daughter at the start of 2020 made me take another look at
-                                            my career choices. After a year of getting used to parenthood, and 
-                                            self reflection I have come to the conclusion that
-                                            I would to pursue development instead.
-                                        </p>
-                                        <hr class="hr-wide hr-content-divider">
-                                        <div class="skills">
-                                            <h4>My Skills:</h4>
-                                            <h6 class="skill-header"><i class="fab fa-html5"></i> HTML5</h6>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info progress-html" role="progressbar"
-                                                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
-                                                    aria-label="Progressbar showing 85% progress in HTML5">85%</div>
-                                            </div>
-                                            <h6 class="skill-header"><i class="fab fa-css3-alt"></i> CSS3</h6>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success progress-css3" role="progressbar"
-                                                    aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"
-                                                    aria-label="Progressbar showing 78% progress in CSS3">78%</div>
-                                            </div>
-                                            <h6 class="skill-header"><i class="fab fa-bootstrap"></i> Bootstrap 4.5</h6>
-                                            <div class="progress">
-                                                <div class="progress-bar bg-warning progress-bootstrap45"
-                                                    role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                                                    aria-valuemax="100"
-                                                    aria-label="Progressbar showing 40% progress in Bootstrap 4.5">40%
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
+                            <h6 class="skill-header"><i class="fab fa-css3-alt"></i> CSS3</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-success progress-css3" role="progressbar" aria-valuenow="78"
+                                    aria-valuemin="0" aria-valuemax="100"
+                                    aria-label="Progressbar showing 78% progress in CSS3">78%</div>
+                            </div>
+                            <h6 class="skill-header"><i class="fab fa-bootstrap"></i> Bootstrap 4.5</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning progress-bootstrap45" role="progressbar"
+                                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                                    aria-label="Progressbar showing 40% progress in Bootstrap 4.5">40%
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <!-- /Skills listing -->
+                    </article>
                 </div>
             </div>
         </div>
 
+        <!-- Footer -->
         <footer>
             <nav class="navbar navbar-expand-sm fixed-bottom">
                 <ul class="navbar navbar-nav">

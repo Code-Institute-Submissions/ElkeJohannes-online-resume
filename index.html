@@ -14,10 +14,12 @@
 
 <body>
     <div class="outer-container">
+        <!-- Top navigation bar -->
         <nav class="navbar navbar-expand-sm fixed-top nav-top">
 
             <a class="navbar-brand" href="index.html">Elke Harmanny</a>
 
+            <!-- Navbar toggler for mobile devices -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="nav-icon"></span>
@@ -25,6 +27,7 @@
                 <span class="nav-icon"></span>
             </button>
 
+            <!--  Set the navbar to collapse on small screen -->
             <ul class="navbar navbar-nav collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <li class="nav-item active">
                     <a href="index.html" class="nav-link" aria-label="Click here to visit the home page">Home</a>
@@ -45,13 +48,13 @@
         </nav>
 
         <div class="container-fluid home-content">
-            <div class="row">
-                <div class="col">
-                    <section>
+            <div class="row justify-content-center">
+                <div class="col-sm-9">
+                    <article>
+                        <!-- Intro/Welcome section -->
                         <header>
                             <h2>Welcome to my website!</h2>
                         </header>
-
                         <h6>
                             I'm a Full Stack Web Developer in training, looking for new opportunities to
                             grow and expand my skills. <br> Preferably while paying the bills ;)
@@ -62,51 +65,58 @@
                                 class="a-white-contrast" aria-label="Click to visit Work history page">what I can
                                 do</a>.
                         </h6>
-                    </section>
+                        <!-- /Intro/Welcome section -->
+                        
+                        <hr class="hr hr-wide hr-content-divider">
+                        
+                        <!-- Testimonials section -->
+                        <div class="testimonials">    
+                            <header class="testimonials-header">
+                                <h3>What other people say about me:</h3>
+                            </header>
+                            <div class="row">
+                                <!-- Set each testimonial in a seperate blockquote and it's width to a 3rd
+                                    of the available space within it's container -->
+                                <div class="col-sm-4">
+                                    <img src="assets/images/man1.jpg" class="rounded-circle mr-3 testimonial-img"
+                                        alt="Close up of smiling business man">
+                                    <div class="media-body">
+                                        <blockquote class="blockquote">
+                                            <p>Elke is a great guy who has done some excellent work for me.</p>
+                                            <p>- John Doe</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="assets/images/man2.jpg" class="rounded-circle mr-3 testimonial-img"
+                                        alt="Close up of stern looking business man">
+                                    <div class="media-body">
+                                        <blockquote class="blockquote">
+                                            <p>Loved working with Elke!</p>
+                                            <p>- Jack Doe</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="assets/images/woman1.jpg" class="rounded-circle mr-3 testimonial-img"
+                                        alt="Close up of smiling business woman">
+                                    <div class="media-body">
+                                        <blockquote class="blockquote">
+                                            <p>Elke shines bright like a diamond!</p>
+                                            <p>- Jane Doe</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <!-- /Testimonials section -->
+                    </article>
                 </div>
-            </div>
-            <hr class="hr hr-wide hr-content-divider">
-            <div class="testimonials row">
-                <section class="col">
-                    <header class="testimonials-header">
-                        <h3>What other people say about me:</h3>
-                    </header>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="assets/images/man1.jpg" class="rounded-circle mr-3 testimonial-img"
-                                alt="Close up of smiling business man">
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p>Elke is a great guy who has done some excellent work for me.</p>
-                                    <p>- John Doe</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="assets/images/man2.jpg" class="rounded-circle mr-3 testimonial-img"
-                                alt="Close up of stern looking business man">
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p>Loved working with Elke!</p>
-                                    <p>- Jack Doe</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="assets/images/woman1.jpg" class="rounded-circle mr-3 testimonial-img"
-                                alt="Close up of smiling business woman">
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p>Elke shines bright like a diamond!</p>
-                                    <p>- Jane Doe</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
         </div>
 
+
+        <!-- Footer -->
         <footer>
             <nav class="navbar navbar-expand-sm fixed-bottom">
                 <ul class="navbar navbar-nav">
@@ -131,8 +141,8 @@
                 </ul>
             </nav>
         </footer>
-
     </div>
+
     <!-- Bootstrap Javascript bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -327,7 +327,7 @@ nav {
     width: 40%;
 }
 
-.about-main, .about-aside {
+.about-main, .about-aside-text {
     text-align: center;
 }
 
@@ -446,9 +446,6 @@ a.contact-email {
     .hr-wide {
         max-width: 70%;
     }
-    .home-content {
-        max-width: 90%;
-    }
     .job-content {
         margin-left: 7%;
     }
@@ -457,8 +454,11 @@ a.contact-email {
         bottom: initial;
         max-width: 180px;
     }
-    .about-main, .about-aside {
+    .about-main, .about-aside-text {
         text-align: left;
+    }
+    .about-aside {
+        margin-right: 10px;
     }
     .info-left {
         margin-left: 0px;
@@ -467,7 +467,7 @@ a.contact-email {
         font-size: 0.9rem;
     }
     .resume-picture {
-        margin-left: 5px;
+        margin: 0 auto;
     }
 }
 
@@ -478,11 +478,29 @@ a.contact-email {
     .navbar {
         width: 70vw;
     }
-    .home-content {
-        max-width: 80%;
-    }
     .job-content {
         margin-left: 3%;
+    }
+}
+
+@media(min-width:1200px){
+    .about-aside {
+        margin-right: 20px;
+    }
+    .about-aside-text {
+        text-align: right;        
+    }
+    .resume-picture {
+        margin-left: 20px;
+    }
+}
+
+@media(min-width:1500px){
+    .about-aside {
+        text-align: right;
+    }
+    .resume-picture{
+        margin-right: 20px;
     }
 }
 

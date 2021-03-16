@@ -14,10 +14,12 @@
 
 <body>
     <div class="outer-container">
+        <!-- Top navigation bar -->
         <nav class="navbar navbar-expand-sm fixed-top nav-top">
 
             <a class="navbar-brand" href="index.html">Elke Harmanny</a>
 
+            <!-- Navbar toggler for mobile devices -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="nav-icon"></span>
@@ -25,11 +27,12 @@
                 <span class="nav-icon"></span>
             </button>
 
+            <!--  Set the navbar to collapse on small screen -->
             <ul class="navbar navbar-nav collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a href="index.html" class="nav-link" aria-label="Click here to visit the home page">Home</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="work-history.html" class="nav-link"
                         aria-label="Click here to visit the Work History page">Work History</a>
                 </li>
@@ -49,6 +52,7 @@
                 <div class="col-xl-9">
                     <div class="row">
                         <aside class="col-sm-3">
+                            <!-- Navigation button (circle) for mobile -->
                             <a class="d-inline d-sm-none job-navigation-button" data-toggle="collapse"
                                 href="#job-navigation" role="button" aria-expanded="false"
                                 aria-controls="job-navigation" aria-label="Toggle job navigation">
@@ -56,6 +60,11 @@
                                     <div class="job-toggler-inner-circle"></div>
                                 </div>
                             </a>
+                            <!-- Navigation for larger then mobile screens
+                                Extra div at the end to ensure there's a bit of extra white space on 
+                                screens larger then mobile. Could've also done this in css with 
+                                margin & media query, but since the page is a bit of a bootstrap showcase
+                                I thought it'd be nice to do it like this  -->
                             <div class="collapse d-sm-inline job-navigation-content" id="job-navigation">
                                 <a href="#job4" aria-label="Jump to the Senior Consultant section">
                                     <h6 class="work-header">Senior Consultant</h6>
@@ -84,6 +93,7 @@
                             </div>
                         </aside>
                         <div class="col-sm job-content">
+                            <!-- Work history titles/dates/descriptions -->
                             <section class="job-history">
                                 <h6 class="work-header" id="job4">Senior Consultant</h6>
                                 <div class="work-date">01-01-2012 - Present</div>
@@ -175,12 +185,14 @@
                                     falls out.
                                 </p>
                             </section>
+                            <!-- /Work history titles/dates/descriptions -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <!-- Footer -->
         <footer>
             <nav class="navbar navbar-expand-sm fixed-bottom">
                 <ul class="navbar navbar-nav">
