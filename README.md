@@ -44,13 +44,20 @@ All colors, fonts and images are chosen to be somewhat in line with things I am 
 ## Features
 
 ### Existing features
+When viewed on tablet/desktop:
 - On the Work History page there is an additional navigation menu on the left hand side. You can click on the dates in this timeline to jump to the appropriate section in the text. 
+- When the 'About me' page is loaded, the progressbars will load with an animation. The animation will fill the progressbars to their respective amounts. 
+- In the footer there is a link in the bottom left to download my C.V. in a pdf format. 
+- In the footer on the bottom right there are links to my social pages.
 
-- On Mobile the feature above sits behind a circular button on the bottom right. 
-- When the 'About me' page is loaded, the progressbars are filled in with an animation.  
+When viewed on Mobile devices: 
+- On the work history page, there is a circular button on the bottom right. When clicked on, this button will open a menu containing all work history names and dates. When clicking on one, you will be taken to the corresponding section in the text.
+- When you click on the circular button on the Work History page, the inner teal circle will enlarge when the menu is active. After having clicked somewhere else on the page, this circle will shrink back again. 
+- When the Work History page is loaded, an animation is briefly played to draw attention to the circular button on the button right. The animation is that of a teal circle growing and shrinking in size 3 times.
 
 ### Features Left to Implement
-- A showcase of my portfolio of websites in (for example) a carousel. 
+- A showcase of my portfolio of websites in (for example) a carousel. This could be placed on the home page.
+- A showcase of some of my interests. This could be some pictures of garden lay-outs, a showcase of a numbers of books and movies or perhaps some things I love about Japan like the art, nature or language. 
 
 ---
 
