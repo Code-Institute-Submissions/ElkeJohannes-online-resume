@@ -505,7 +505,7 @@ a.contact-email {
         width: 70vw;
     }
     .job-navigation-menu {
-        left: 17vw;
+        left: 16vw;
         top: 7vw;
     }
 }
@@ -521,7 +521,6 @@ a.contact-email {
         margin-left: 20px;
     }
     .job-navigation-menu{
-        left: 16vw;
         top: 5vw;
     }
 }
@@ -533,8 +532,11 @@ a.contact-email {
     .resume-picture{
         margin-right: 20px;
     }
-    .job-navigation-menu {
-        left: 19vw;
+}
+
+@media(min-width:2000px){
+    .job-navigation-menu{
+        left: 18vw;
         top: 3vw;
     }
 }
