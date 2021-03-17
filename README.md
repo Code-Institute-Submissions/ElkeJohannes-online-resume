@@ -119,6 +119,45 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
 16. Click on the job titles/dates
     * Verify you are taken to the corresponding parts of text
 
+### Feature tests
+When viewed on tablet/desktop:
+- On the Work History page there is an additional navigation menu on the left hand side. You can click on the dates in this timeline to jump to the appropriate section in the text. 
+    1. Open the Work History page
+    2. Click on one of the dates
+    3. Verify the text jumps to the corresponding section 
+- When the 'About me' page is loaded, the progressbars will load with an animation. The animation will fill the progressbars to their respective amounts. 
+    1. Open the About me page
+    2. Verify the progressbars perform an animation
+    3. Verify the numbers appear correct with the amount the bar is filled
+- In the footer there is a link in the bottom left to download my C.V. in a pdf format. 
+    1. Click on the link to download the cv in the bottom left of any page
+    2. Verify a new tab opens with the pdf file. Depending on the browser this may instead prompt a download. 
+- In the footer on the bottom right there are links to my social pages.
+    1. Click on the LinkedIn link on the bottom right of any page
+    2. Verify the LinkedIn page of Elke Harmanny opens
+    3. Click on the GitHub link on the bottom right of any page
+    4. Verify the GitHub page of Elke Johannes opens
+
+When viewed on Mobile devices:
+
+*To test these, either open the website on a mobile device or use developer tools to set the browser width to that of a mobile device.*
+- On the work history page, there is a circular button on the bottom right. When clicked on, this button will open a menu containing all work history names and dates. When clicking on one, you will be taken to the corresponding section in the text.
+    1. Open the Work History page
+    2. Click on the circular button on the bottom right
+    3. Verify a menu opens above it
+    4. Click on one of the dates
+    5. Verify the text jumps to the corresponding section 
+- When you click on the circular button on the Work History page, the inner teal circle will enlarge when the menu is active. After having clicked somewhere else on the page, this circle will shrink back again. 
+    1. Open the Work History page
+    2. Click on the circular button on the bottom right
+    3. Verify the teal circle expands
+    4. Click somewhere else on the screen
+    5. Verify the teal circle shrinks back down again 
+- When the Work History page is loaded, an animation is briefly played to draw attention to the circular button on the button right. The animation is that of a teal circle growing and shrinking in size 3 times.
+    1. Open the Work History page
+    2. Verify the circle in the bottom right of the page enlarges and shrinks down again
+    3. Verify this happened 3 times
+
 
 ## Bugs encountered
 1. The job text dissapears when you click on an item in the side-navigation. 
