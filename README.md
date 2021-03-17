@@ -26,10 +26,10 @@ To make it visually interesting there will be a clickable timeline on the work h
 Being a simplistic site in terms of content, the lay-out will be matching that simplicity. There will be a seperate menu item for each feature. At the bottom there will be an area with links to LinkedIn and Github and an option for downloading my CV. At the home page there will be a testimonials section.
 
 ### Skeleton
-- [Home](https://github.com/ElkeJohannes/online-resume/blob/master/assets/wireframes/Home.png)
-- [Work History](https://github.com/ElkeJohannes/online-resume/blob/master/assets/wireframes/Work-History.png)
-- [About Me](https://github.com/ElkeJohannes/online-resume/blob/master/assets/wireframes/About-Me.png)
-- [Contact](https://github.com/ElkeJohannes/online-resume/blob/master/assets/wireframes/Contact.png)
+- Home ![Home](assets\wireframes\home.png)
+- Work history ![Work History](assets\wireframes\work-history.png)
+- About me ![About Me](assets\wireframes\about-me.png)
+- Contact ![Contact](assets\wireframes\contact.png)
 
 ### Surface
 In terms of look and feel the website will feature nature backgrounds, some with myself in them. These will be set to a fairly high transparancy to not distract from the main content. 
@@ -44,7 +44,9 @@ All colors, fonts and images are chosen to be somewhat in line with things I am 
 ## Features
 
 ### Existing features
-- On the Work History page you can click on the dates in the timeline so jump to the appropriate section in the text. On Mobile this function sits behind a circular button on the bottom right. 
+- On the Work History page there is an additional navigation menu on the left hand side. You can click on the dates in this timeline to jump to the appropriate section in the text. 
+
+- On Mobile the feature above sits behind a circular button on the bottom right. 
 - When the 'About me' page is loaded, the progressbars are filled in with an animation.  
 
 ### Features Left to Implement
@@ -64,19 +66,23 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
 
 ## Testing
 ### Code validators
-* Tested for valid code using [w3 validator](https://validator.w3.org/nu/#textarea)
-* Tested for accessibility using [achecker](https://achecker.ca/checker/index.php)
+* Tested for valid HTML code using [W3 validator](https://validator.w3.org/)
+    * Home ![Home](assets\images\screenshots\w3validator-home.png)
+    * Work History ![Work History](assets\images\screenshots\w3validator-work-history.png)
+    * About me ![About me](assets\images\screenshots\w3validator-about.png)
+    * Contact ![Contact](assets\images\screenshots\w3validator-contact.png)
+* Tested for valid CSS code using [W3 CSS validator](https://jigsaw.w3.org/css-validator/) ![W3 CSS validation](assets\images\screenshots\w3validator-css.png)
 
 ### User story tests
 - As a potential employer, I want to be able to see what Elke has done in the past, to help me decide if I want to hire him.
     * The "About me" and "what I can do" hyperlinks on the frontpage take you directly to the relevant information. These can also be navigated using the menu at the top of the screen. 
-    ![Hyperlinks & menu](assets/images/screenshot-story-employer.png)
+    ![Hyperlinks & menu](assets\images\screenshots\story-employer.png)
 - As a recruiter, I want to be able to see Elke's resume, to determine his marketability to my clients. 
     * The "About me" and "what I can do" hyperlinks on the frontpage take you directly to the relevant information. There is also a link in the footer to download a traditional C.V.
-    ![Hyperlinks & menu](assets/images/screenshot-story-recruiter.png)
+    ![Hyperlinks & menu](assets\images\screenshots\story-recruiter.png)
 - As someone with a great idea, I want to get a feel for Elke's personality, to determine if I would want to collaborate with him. 
-    * Using the menu at the top of the screen, you can click on the contact page which takes you to a form to do this. 
-    ![Hyperlinks & menu](assets/images/screenshot-story-collaborator.png)
+    * Using the menu at the top of the screen, you can click on the 'About me' page to read about who I am. You can then click on the 'Contact page' which takes you to a form to get in touch. 
+    ![Hyperlinks & menu](assets\images\screenshots\story-collaborator.png)
 
 ### Test script
 1. Open the website in Chrome developer tools (press F12)
