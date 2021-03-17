@@ -91,7 +91,7 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
     * Using the menu at the top of the screen, you can click on the 'About me' page to read about who I am. You can then click on the 'Contact page' which takes you to a form to get in touch. 
     ![Hyperlinks & menu](assets\images\screenshots\story-collaborator.png)
 
-### Test script
+### General test script
 1. Open the website in Chrome developer tools (press F12)
 2. Toggle the devices toolbar (press Ctrl + Shift + M)
 3. Drag the bar on the side of the website from right to left to change the screen size
@@ -99,25 +99,10 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
 4. Click on the bars at the top labeled mobile, tablet and laptop with respective sizes. 
     * Verify the site looks as expected on all sizes
     * Close the developer tools afterwards (press F12 again)
-5. Click on the Page titles in the top menu
+5. Click on the Page titles in the menu at the top right of the screen
     * Verify you are taken to the corresponding page every time
 6. On the 'Home' page, click on the purple texts 'about me' and 'what I can do'
     * Verify you are taken to the 'About me' and 'Work History' pages.
-7. Click on the 'Download a  pdf version of my C.V.' link on the bottom of the page
-    * Verify a new tab opens displaying a pdf version of my C.V.
-8. Click on the LinkedIn button on the bottom right of the page
-    * Verify a new tab opens displaying my LinkedIn page
-9. Click on the GitHub button on the bottom right of the page
-    * Verify a new tab opens displaying my GitHub page
-10. Go to the Work History page using the menu at the top.
-11. Click on the titles/dates on the left
-    * Verify you are taken to the corresponding text on the right side (main part) of the screen. 
-12. While still on the Work History page, open Chrome developer tools again (press F12)
-13. Open the devices toolbar (press Ctrl + Shift + M)
-14. Set the screen size to mobile by clicking on the middle bar at the top (320px)
-15. Click on the round dark grey circle on the bottom right
-16. Click on the job titles/dates
-    * Verify you are taken to the corresponding parts of text
 
 ### Feature tests
 When viewed on tablet/desktop:
