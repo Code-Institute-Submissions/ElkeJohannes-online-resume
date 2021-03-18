@@ -157,6 +157,8 @@ When viewed on Mobile devices:
     * User error (me), misspelled the name of the files. 
 6. After deployment to GitHub, several images in the readme where not displaying
     * Locally used a '\' where GitHub requires a '/'. So in file names this was: assets\images\wireframes\home.png. Now changed to assets/images/wireframes/Home.png (because capitalization needs to be the same as well)
+7. After deployment to GitHub, the link to Unsplash was not working
+    * Inserted the link using only www. format, now added https:// in front
     
 ---
 
@@ -194,7 +196,7 @@ Alternatively you can clone this repository by using the GitHub cli. Should you 
 * All text is written by myself
 
 ### Media
-* Testimonial images taken from [Unsplash](www.unsplash.com)
+* Testimonial images taken from [Unsplash](https://unsplash.com/)
     * Man1 from [shipnorth](https://unsplash.com/@shipnorth)
     * Man2 from [rodreis](https://unsplash.com/@rodreis)
     * Woman1 from [matfelipe](https://unsplash.com/@matfelipe)
