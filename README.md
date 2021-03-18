@@ -26,10 +26,10 @@ To make it visually interesting there will be a clickable timeline on the work h
 Being a simplistic site in terms of content, the lay-out will be matching that simplicity. There will be a seperate menu item for each feature. At the bottom there will be an area with links to LinkedIn and Github and an option for downloading my CV. At the home page there will be a testimonials section.
 
 ### Skeleton
-- Home ![Home](assets\wireframes\home.png)
-- Work history ![Work History](assets\wireframes\work-history.png)
-- About me ![About Me](assets\wireframes\about-me.png)
-- Contact ![Contact](assets\wireframes\contact.png)
+- Home ![Home](assets/wireframes/Home.png)
+- Work history ![Work History](assets/wireframes/work-history.png)
+- About me ![About Me](assets/wireframes/about-me.png)
+- Contact ![Contact](assets/wireframes/Contact.png)
 
 ### Surface
 In terms of look and feel the website will feature nature backgrounds, some with myself in them. These will be set to a fairly high transparancy to not distract from the main content. 
