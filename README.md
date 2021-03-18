@@ -26,10 +26,10 @@ To make it visually interesting there will be a clickable timeline on the work h
 Being a simplistic site in terms of content, the lay-out will be matching that simplicity. There will be a seperate menu item for each feature. At the bottom there will be an area with links to LinkedIn and Github and an option for downloading my CV. At the home page there will be a testimonials section.
 
 ### Skeleton
-- Home ![Home](assets\wireframes\home.png)
-- Work history ![Work History](assets\wireframes\work-history.png)
-- About me ![About Me](assets\wireframes\about-me.png)
-- Contact ![Contact](assets\wireframes\contact.png)
+- Home ![Home](assets/wireframes/Home.png)
+- Work history ![Work History](assets/wireframes/work-history.png)
+- About me ![About Me](assets/wireframes/about-me.png)
+- Contact ![Contact](assets/wireframes/Contact.png)
 
 ### Surface
 In terms of look and feel the website will feature nature backgrounds, some with myself in them. These will be set to a fairly high transparancy to not distract from the main content. 
@@ -74,22 +74,22 @@ HTML5 and CSS3 were used as the languages in which this site was made. Additiona
 ## Testing
 ### Code validators
 * Tested for valid HTML code using [W3 validator](https://validator.w3.org/)
-    * Home ![Home](assets\images\screenshots\w3validator-home.png)
-    * Work History ![Work History](assets\images\screenshots\w3validator-work-history.png)
-    * About me ![About me](assets\images\screenshots\w3validator-about.png)
-    * Contact ![Contact](assets\images\screenshots\w3validator-contact.png)
-* Tested for valid CSS code using [W3 CSS validator](https://jigsaw.w3.org/css-validator/) ![W3 CSS validation](assets\images\screenshots\w3validator-css.png)
+    * Home ![Home](assets/images/screenshots/w3validator-home.png)
+    * Work History ![Work History](assets/images/screenshots/w3validator-work-history.png)
+    * About me ![About me](assets/images/screenshots/w3validator-about.png)
+    * Contact ![Contact](assets/images/screenshots/w3validator-contact.png)
+* Tested for valid CSS code using [W3 CSS validator](https://jigsaw.w3.org/css-validator/) ![W3 CSS validation](assets/images/screenshots/w3validator-css.png)
 
 ### User story tests
 - As a potential employer, I want to be able to see what Elke has done in the past, to help me decide if I want to hire him.
     * The "About me" and "what I can do" hyperlinks on the frontpage take you directly to the relevant information. These can also be navigated using the menu at the top of the screen. 
-    ![Hyperlinks & menu](assets\images\screenshots\story-employer.png)
+    ![Hyperlinks & menu](assets/images/screenshots/story-employer.png)
 - As a recruiter, I want to be able to see Elke's resume, to determine his marketability to my clients. 
     * The "About me" and "what I can do" hyperlinks on the frontpage take you directly to the relevant information. There is also a link in the footer to download a traditional C.V.
-    ![Hyperlinks & menu](assets\images\screenshots\story-recruiter.png)
+    ![Hyperlinks & menu](assets/images/screenshots/story-recruiter.png)
 - As someone with a great idea, I want to get a feel for Elke's personality, to determine if I would want to collaborate with him. 
     * Using the menu at the top of the screen, you can click on the 'About me' page to read about who I am. You can then click on the 'Contact page' which takes you to a form to get in touch. 
-    ![Hyperlinks & menu](assets\images\screenshots\story-collaborator.png)
+    ![Hyperlinks & menu](assets/images/screenshots/story-collaborator.png)
 
 ### General test script
 1. Open the website in Chrome developer tools (press F12)
@@ -155,6 +155,8 @@ When viewed on Mobile devices:
     * The cause of this was Github changing the regular letters to capital letters. Changed code now to match. 
 5. After deployment to Github pages, two wireframe links were no longer working. 
     * User error (me), misspelled the name of the files. 
+6. After deployment to GitHub, several images in the readme where not displaying
+    * Locally used a '\' where GitHub requires a '/'. So in file names this was: assets\images\wireframes\home.png. Now changed to assets/images/wireframes/Home.png (because capitalization needs to be the same as well)
     
 ---
 
